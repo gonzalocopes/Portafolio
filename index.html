@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio Gonzalo Copes</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Menu -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">GC</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#educacion/exp" onclick="seleccionar()">EDUCACION/EXP</a></li>
+                    <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- inicio -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagenes/foto.jpeg" alt="" width="320px" height="320px" >
+            </div>
+            <h1>Gonzalo Copes</h1>
+            <h2>Desarrollador</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/gonzalo-copes7a9277205/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/gonzalocopes" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/gonza.copes/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=1136424020&text=Hola, Gonza!" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- sobre mi -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Gonzalo Copes</span> Un joven entusiasta y autodidacta apasionado por la tecnología en busca de oportunidades para iniciar una carrera exitosa en el mundo de desarrollo de software y Web. Con sólidos conocimientos en programación y resolución de problemas, con un enfoque en el aprendizaje continuo y la mejora constante.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Telefono</strong>
+                            +54 1136424020
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            gonzalo.copes@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Edad</strong>
+                            28 años
+                        </li>
+                        <li>
+                            <strong>Ubicacion</strong>
+                            Argentina, Buenos Aires
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>SKILLS</h3>
+                    <div class="contenedor-skills">
+                        <div class="skills">
+                            <i class="fa-brands fa-java"></i>
+                            <span>JAVA</span>
+                        </div>
+                        <div class="skills">
+                            <i class="fa-brands fa-python"></i>
+                            <span>PYTHON</span>
+                        </div>
+                        <div class="skills">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skills">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skills">
+                            <i class="fa-brands fa-js"></i>
+                            <span>JAVASCRIPT</span>
+                        </div>
+                        <div class="skills">
+                            <i class="fa-brands fa-github"></i>
+                            <span>GITHUB</span>
+                        </div>
+                        <div class="skills">
+                            <i class="fa-solid fa-database"></i>
+                            <span>SQLSERVER</span>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+                        <button>
+                             <a download href="archivos/CV GONZALO COPES.pdf">Descargar CV <i class="fa-solid fa-download"></i></a>
+                                <span class="overlay"></span>
+                        </button>  
+        </div>
+    </section>
+
+    <!-- educacion -->
+    <section id="educacion/exp" class="educacion">
+        <div class="contenido-seccion">
+            <h2>Educacion y Experiencia</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Tecnicatura en Programacion</h4>
+                        <span class="uni">Universidad Nacional Guillermo Brown</span>
+                        <span class="fecha">2022 - En curso</span>
+                        <p>Actualmente estoy cursando mi segundo año de la carrera Tecnicatura
+                            en Programacion es una carrera de 3 años. En el primer año nos enfocamos al 
+                        al lenguaje Python y estructura de datos. En el segundo año Java, metodologías ágiles y Programación orientada a objetos.
+                        Ademas estoy aprendiendo por mi cuenta nuevos lenguajes para tener mas conocimientos.</p>
+                    
+                    
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                 <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Soporte Tecnico Freelance</h4>
+                        <span class="uni">Freelance por Hooby</span>
+                        <span class="fecha">2013 - Actualidad</span>
+                        <p>Soy soporte tecnico de pc hace 10 años trabajando
+                            por mi cuenta, usando mi Instagram, Facebook y a la vez gente que me recomienda y lo sigo haciendo porque es una cosa que me gusta y lo hago como hobby.
+                            Lo que hago es la resolución de problemas de hardware y software, configuración de redes, mantenimiento preventivo, instalación y actualización de software, etc.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- proyectos-->
+    <section id="proyectos" class="proyectos">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://hernan-heredia-plomero-gasista.netlify.app/" target="_blank">
+                    <img src="imagenes/paginaplomero.png" alt="">
+                    <div class="overlay">
+                        <h3>Web Publicitaria</h3>
+                        <p>html - css </p></a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/gonzalocopes/puntodeventa" target="_blank">
+                    <img src="imagenes/java.png" alt="">
+                    <div class="overlay">
+                        <h3>Punto de venta</h3>
+                        <p>Java (Back-End) </p></a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/descarga.png" alt="">
+                    <div class="overlay">
+                        <h3>Proximamente</h3>
+                        <p>Proximamente</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/descarga.png" alt="">
+                    <div class="overlay">
+                        <h3>Proximamente</h3>
+                        <p>Proximamente</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/descarga.png" alt="">
+                    <div class="overlay">
+                        <h3>Proximamente</h3>
+                        <p>Proximamente</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/descarga.png" alt="">
+                    <div class="overlay">
+                        <h3>Proximamente</h3>
+                        <p>Proximamente</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contacto -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- formulario -->
+                <div class="col">
+                    <form action="https://formspree.io/f/mdoropdb"
+                    method="POST">
+                    <input type="text" placeholder="Nombre" name="name">
+                    <input type="text" placeholder="Asunto" name="name">
+                    <input type="text" placeholder="Email" name="email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" name="message"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane-top"></i>
+                        <span class="overlay"></span>
+                    </button></form>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <h4>Gonzalo Copes 2023 </h4><i class="fa-regular fa-registered"></i></a>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
