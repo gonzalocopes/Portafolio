@@ -751,6 +751,7 @@ footer .arriba {
   align-items: center;
   padding-bottom: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 15px;
 }
 
 .proyecto-card-grid:hover {
