@@ -1000,6 +1000,17 @@ footer .arriba {
 
   .nav-responsive {
     display: block;
+    font-size: 30px;
+    color: var(--color-primary);
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .language-btn {
+    right: 120px;
+    /* Shift left to avoid overlap with hamburger */
+    padding: 8px 12px;
+    /* Slightly smaller on mobile */
   }
 
   nav.responsive {
@@ -1328,8 +1339,8 @@ html {
 
 .language-btn {
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 24px;
+  right: 80px;
   background: var(--color-primary);
   color: #fff;
   font-weight: bold;
