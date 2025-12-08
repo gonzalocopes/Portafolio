@@ -2,381 +2,520 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portafolio Gonzalo Copes</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portafolio Gonzalo Copes</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
 </head>
 
 <body>
-<div id="particles-js"></div>
-<div id="loader" class="loader">
-  <span class="console-text">Gonzalo Copes Dev<span class="dots">...</span></span>
-</div>
+  <div id="particles-js"></div>
 
-
-
-    <!-- Menu -->
-    <div class="contenedor-header">
-        <header>
-            <div class="logo">
-                <a href="#">GC</a>
-            </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#educacion/exp" onclick="seleccionar()">EDUCACION/EXP</a></li>
-                    <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
-                </ul>
-            </nav>
-            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </header>
-    </div>
-    <!-- inicio -->
-    <section id="inicio" class="inicio">
-        <div class="contenido-banner" data-aos="fade-up">
-            <div class="contenedor-img">
-                <img src="imagenes/foto.jpeg" alt="" width="320px" height="320px">
-            </div>
-            <h1>Gonzalo Copes</h1>
-            <h2>Desarrollador</h2>
-            <div class="redes">
-                <a href="https://www.linkedin.com/in/gonzalo-copes7a9277205/" target="_blank"><i
-                        class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/gonzalocopes" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.instagram.com/gonza.copes/" target="_blank"><i
-                        class="fa-brands fa-instagram"></i></a>
-                <a href="https://wa.me/+5491136424020/?text=Hola,%20Gonza!" target="_blank"><i
-                        class="fa-brands fa-whatsapp"></i></a>
-            </div>
-        </div>
-    </section>
-    <!-- sobre mi -->
-    <section id="sobremi" class="sobremi" >
-        
-        <div class="contenido-seccion">
-            <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Gonzalo Copes</span> un apasionado desarrollador de software y web con experiencia
-                laboral y un enfoque en el aprendizaje continuo y la mejora constante. Mi objetivo es seguir creciendo
-                como profesional y contribuir de manera exitosa a la empresa.
-                Estoy en busqueda de oportunidades futuras y listo para enfrentar nuevos desafíos. ¡Gracias por visitar
-                mi portafolio y conocer un poco más sobre mí!</p>
-
-            <div class="fila">
-                <div class="col">
-                    <h3>Datos Personales</h3>
-                    <ul>
-                        <li>
-                            <strong>Telefono</strong>
-                            +54 9 1136424020
-                        </li>
-                        <li>
-                            <strong>Email</strong>
-                            gonzalo.copes@hotmail.com
-                        </li>
-                        <li>
-                            <strong>Edad</strong>
-                            30 años
-                        </li>
-                        <li>
-                            <strong>Ubicacion</strong>
-                            Argentina, Buenos Aires
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col">
-                        <h3>SKILLS</h3>
-                        <div class="iconos-tecnologias">
-                            <div class="tecnologia" data-aos="zoom-in"><i class="fa-brands fa-html5"></i><p>HTML5</p></div>
-                            <div class="tecnologia" data-aos="zoom-in"><i class="fa-brands fa-css3-alt"></i><p>CSS3</p></div>
-                            <div class="tecnologia" data-aos="zoom-in"><i class="fa-brands fa-js"></i><p>JavaScript</p></div>
-                            <div class="tecnologia" data-aos="zoom-in"><i class="fa-brands fa-python"></i><p>Python</p></div>
-                            <div class="tecnologia" data-aos="zoom-in"><i class="fa-brands fa-java"></i><p>Java</p></div>
-                            <div class="tecnologia" data-aos="zoom-in"><i class="fa-brands fa-github"></i><p>GitHub</p></div>
-                            <div class="tecnologia" data-aos="zoom-in"><i class="fa-solid fa-database"></i><p>SQL Server</p></div>
-                            <div class="tecnologia" data-aos="zoom-in"><i class="fa-brands fa-react"></i><p>React</p></div>
-                            <div class="tecnologia" data-aos="zoom-in"><i class="fa-solid fa-database"></i><p>MySQL</p></div>
-                            <div class="tecnologia" data-aos="zoom-in"><i class="fa-brands fa-wordpress"></i><p>WordPress</p></div>
-                            <div class="tecnologia" data-aos="zoom-in"><i class="fa-brands fa-php"></i><p>PHP</p></div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button>
-                <a download href="archivos/Gonzalo Copes CV - Desarrollador.pdf">Descargar CV <i class="fa-solid fa-download"></i></a>
-                <span class="overlay"></span>
-            </button>
-        </div>
-        
-    </section>
-
- <section id="educacion/exp" class="educacion" data-aos="fade-left">
-  <div class="contenido-seccion">
-    <h2>Educación y Experiencia</h2>
-    <div class="contenedor-cards">
-
-      <!-- Educación -->
-      <div class="card-edu-exp" data-aos="fade-right">
-        <h3>🎓 Educación</h3>
-        <div class="bloque">
-          <h4>Tecnicatura en Programación</h4>
-          <p class="subtitulo">Universidad Nacional Guillermo Brown</p>
-          <span class="fecha">2022 - En curso</span>
-          <p class="descripcion">
-            Actualmente estoy cursando mi último año de la carrera Tecnicatura en Programación, que tiene una duración de 3 años.
-          </p>
-        </div>
-      </div>
-
-      <!-- Experiencia -->
-      <div class="card-edu-exp" data-aos="fade-left">
-        <h3>💼 Experiencia</h3>
-
-        <div class="bloque">
-          <h4>Soporte Técnico Freelance</h4>
-          <p class="subtitulo">Trabajo independiente por Hobby</p>
-          <span class="fecha">2013 - Actualidad</span>
-          <p class="descripcion">
-            Resolución de problemas de hardware y software, configuración de redes, mantenimiento, instalación y actualización de sistemas.
-          </p>
-        </div>
-
-        <div class="bloque">
-          <h4>Desarrollador frontend - Webservices</h4>
-          <p class="subtitulo">Workgroup</p>
-          <span class="fecha">SEP 2023 - Actualidad</span>
-          <p class="descripcion">
-            Manejo de: Kubernetes, Docker, Azure, Node.js, Postman, SQL. Automatización con Python. Resolución de tickets, revisiones de logs, despliegues y mantenimiento de sistemas. Desarrollo Front-End en HTML, CSS, JS, React, Bootstrap y WordPress.
-          </p>
-        </div>
-
-      </div>
-    </div>
+  <div id="loader" class="loader">
+    <div class="loader-spinner"></div>
+    <span class="loader-text">GC PORTFOLIO</span>
   </div>
-</section>
 
-
-
-<!-- proyectos -->
-<section id="proyectos" class="proyectos" data-aos="fade-left">
-  <div class="contenido-seccion">
-    <h2>PROYECTOS</h2>
-    <div class="galeria">
-
-      <!-- Proyecto 1 -->
-      <div class="proyecto-card-grid" >
-        <img src="imagenes/paginaplomero.png" alt="Web Publicitaria">
-        <h3>Web Publicitaria</h3>
-        <p>Landing page moderna para un plomero con contacto directo por WhatsApp.</p>
-        <a href="https://hernan-heredia-plomero-gasista.netlify.app/" target="_blank" class="btn-proyecto">Ver Proyecto  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+  <div class="contenedor-header">
+    <header>
+      <div id="language-toggle" class="language-btn">
+        <i class="fas fa-globe"></i> EN
       </div>
 
-      <!-- Proyecto 2 -->
-      <div class="proyecto-card-grid">
-        <img src="imagenes/java.png" alt="Punto de Venta">
-        <h3>Punto de Venta</h3>
-        <p>App en Java para registrar productos y ventas en un comercio con control local de stock.</p>
-        <a href="https://github.com/gonzalocopes/puntodeventa" target="_blank" class="btn-proyecto">Ver Proyecto <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      <div class="logo">
+        <a href="#">GC</a>
       </div>
-
-      <!-- Proyecto 3 -->
-      <div class="proyecto-card-grid">
-        <img src="imagenes/automatizacion.png" alt="Automatización de Tickets">
-        <h3>Automatización de Tickets</h3>
-        <p>Script en Python para agilizar la gestión de tickets técnicos y reducir errores manuales.</p>
-        <a href="https://github.com/gonzalocopes/automizacion" target="_blank" class="btn-proyecto">Ver Proyecto <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      <nav id="nav">
+        <ul>
+          <li><a href="#inicio" onclick="seleccionar()" data-i18n="nav_inicio">INICIO</a></li>
+          <li><a href="#sobremi" onclick="seleccionar()" data-i18n="nav_sobremi">SOBRE MI</a></li>
+          <li><a href="#educacion/exp" onclick="seleccionar()" data-i18n="nav_edu_exp">EDUCACION/EXP</a></li>
+          <li><a href="#proyectos" onclick="seleccionar()" data-i18n="nav_proyectos">PROYECTOS</a></li>
+          <li><a href="#contacto" onclick="seleccionar()" data-i18n="nav_contacto">CONTACTO</a></li>
+        </ul>
+      </nav>
+      <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
       </div>
-
-      <!-- Proyecto 4 -->
-      <div class="proyecto-card-grid">
-        <img src="imagenes/dulce.png" alt="Dulce Coquitas">
-        <h3>Dulce Coquitas</h3>
-        <p>Tienda online de pastelería con catálogo visual y pedidos vía WhatsApp.</p>
-        <a href="https://dulcecoquitas.netlify.app/" target="_blank" class="btn-proyecto">Ver Proyecto <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-      </div>
-
-      <!-- Proyecto 5 -->
-      <div class="proyecto-card-grid">
-        <img src="imagenes/descarga.png" alt="Próximamente">
-        <h3>Próximamente</h3>
-        <p>Nuevo proyecto en desarrollo. Mostrará nuevas tecnologías y desafíos resueltos.</p>
-      </div>
-
-    </div>
+    </header>
   </div>
-</section>
-
-<!-- MAGOZ -->
-<section id="magoz" class="magoz-destacado" data-aos="fade-up">
-  <div class="magoz-card">
-    <div class="magoz-img">
-      <img src="imagenes/Sin título.png" alt="MaGoz IT Solutions" />
+  <!-- inicio -->
+  <section id="inicio" class="inicio">
+    <div class="contenido-banner" data-aos="fade-up">
+      <div class="contenedor-img">
+        <img src="imagenes/foto.jpeg" alt="" width="320px" height="320px">
+      </div>
+      <h1>Gonzalo Copes</h1>
+      <h2><span class="typed-text"></span></h2>
+      <div class="redes">
+        <a href="https://www.linkedin.com/in/gonzalo-copes7a9277205/" target="_blank"><i
+            class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/gonzalocopes" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/gonza.copes/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/+5491136424020/?text=Hola,%20Gonza!" target="_blank"><i
+            class="fa-brands fa-whatsapp"></i></a>
+      </div>
     </div>
-    <div class="magoz-texto">
-      <h2>MaGoz IT Solutions</h2>
-      <h3>Proyecto Destacado – Web Estilo Windows</h3>
-      <p>
-        Junto a mi socio <a href="https://portfolioactualizado.netlify.app/" target="_blank"><strong>Mariano</strong></a>, fundamos <strong>MaGoz IT Solutions</strong>, una empresa de desarrollo donde diseñamos una 
-        <strong>web única e interactiva que simula el sistema operativo Windows</strong>.
-      </p>
-      <ul>
-        <li>🖥️ Escritorio con íconos que abren <strong>ventanas flotantes</strong>: <em>Nosotros, Servicios, Portafolio, Contacto</em>.</li>
-        <li>🪟 Ventanas <strong>minimizables, movibles y redimensionables</strong>.</li>
-        <li>⏰ <strong>Reloj en tiempo real</strong> y barra de tareas con botón de inicio funcional.</li>
-        <li>📱 Diseño <strong>responsive</strong> con mejor experiencia en escritorio.</li>
-        <li>⚛️ Tecnologías: <strong>React + Vite + CSS puro</strong>.</li>
-        <li>🧩 Contiene otros <strong>proyectos desarrollados</strong>.</li>
-      </ul>
-      <a href="https://magozitsolutions.netlify.app/" class="btn-proyecto" target="_blank">
-        Ver Sitio <i class="fa-solid fa-arrow-up-right-from-square"></i>
-      </a>
-    </div>
-  </div>
-</section>
+  </section>
+  <!-- sobre mi -->
+  <section id="sobremi" class="sobremi">
 
+    <div class="contenido-seccion">
+      <h2 data-i18n="about_title">Sobre Mí</h2>
+      <p data-i18n="about_text"><span>Hola, soy Gonzalo Copes</span> un apasionado desarrollador de software y web con
+        experiencia
+        laboral y un enfoque en el aprendizaje continuo y la mejora constante. Mi objetivo es seguir creciendo
+        como profesional y contribuir de manera exitosa a la empresa.
+        Estoy en busqueda de oportunidades futuras y listo para enfrentar nuevos desafíos. ¡Gracias por visitar
+        mi portafolio y conocer un poco más sobre mí!</p>
 
-    <!-- contacto -->
-    <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <div class="fila">
-                <!-- formulario -->
-                <div class="col">
-                    <form action="https://formspree.io/f/mdoropdb" method="POST">
-                        <input type="text" placeholder="Nombre" name="name">
-                        <input type="text" placeholder="Asunto" name="name">
-                        <input type="text" placeholder="Email" name="email">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" name="message"></textarea>
-                        <button>
-                            Enviar Mensaje<i class="fa-solid fa-paper-plane-top"></i>
-                            <span class="overlay"></span>
-                        </button>
-                    </form>
-                </div>
-
-            </div>
+      <div class="fila">
+        <div class="col">
+          <h3 data-i18n="personal_data">Datos Personales</h3>
+          <ul>
+            <li>
+              <strong>Telefono</strong>
+              +54 9 1136424020
+            </li>
+            <li>
+              <strong>Email</strong>
+              gonzalo.copes@hotmail.com
+            </li>
+            <li>
+              <strong>Edad</strong>
+              30 años
+            </li>
+            <li>
+              <strong>Ubicacion</strong>
+              Argentina, Buenos Aires
+            </li>
+          </ul>
         </div>
-    </section>
 
-    <!-- footer -->
-    <footer>
-        <a href="#inicio" class="arriba">
-            <i class="fa-solid fa-angles-up"></i>
+        <div class="col">
+          <h3>SKILLS</h3>
+          <div class="iconos-tecnologias">
+            <div class="skills-slide-track">
+              <!-- Original Skills + New Additions -->
+              <div class="tecnologia html"><i class="fa-brands fa-html5"></i>
+                <p>HTML5</p>
+              </div>
+              <div class="tecnologia css"><i class="fa-brands fa-css3-alt"></i>
+                <p>CSS3</p>
+              </div>
+              <div class="tecnologia js"><i class="fa-brands fa-js"></i>
+                <p>JavaScript</p>
+              </div>
+              <div class="tecnologia python"><i class="fa-brands fa-python"></i>
+                <p>Python</p>
+              </div>
+              <div class="tecnologia java"><i class="fa-brands fa-java"></i>
+                <p>Java</p>
+              </div>
+              <div class="tecnologia github"><i class="fa-brands fa-github"></i>
+                <p>GitHub</p>
+              </div>
+              <div class="tecnologia sql"><i class="fa-solid fa-database"></i>
+                <p>SQL Server</p>
+              </div>
+              <div class="tecnologia react"><i class="fa-brands fa-react"></i>
+                <p>React</p>
+              </div>
+              <div class="tecnologia react-native"><i class="fa-brands fa-react"></i>
+                <p>React N</p>
+              </div>
+              <div class="tecnologia docker"><i class="fa-brands fa-docker"></i>
+                <p>Docker</p>
+              </div>
+              <div class="tecnologia k8s"><i class="fa-solid fa-server"></i>
+                <p>K8s</p>
+              </div>
+              <div class="tecnologia django"><i class="fa-brands fa-python"></i>
+                <p>Django</p>
+              </div>
+              <div class="tecnologia nestjs"><i class="fa-brands fa-node-js"></i>
+                <p>NestJS</p>
+              </div>
+              <div class="tecnologia express"><i class="fa-brands fa-node-js"></i>
+                <p>Express</p>
+              </div>
+              <div class="tecnologia postgres"><i class="fa-solid fa-database"></i>
+                <p>Postgres</p>
+              </div>
+              <div class="tecnologia mysql"><i class="fa-solid fa-database"></i>
+                <p>MySQL</p>
+              </div>
+
+              <!-- Duplicated for Loop -->
+              <div class="tecnologia html"><i class="fa-brands fa-html5"></i>
+                <p>HTML5</p>
+              </div>
+              <div class="tecnologia css"><i class="fa-brands fa-css3-alt"></i>
+                <p>CSS3</p>
+              </div>
+              <div class="tecnologia js"><i class="fa-brands fa-js"></i>
+                <p>JavaScript</p>
+              </div>
+              <div class="tecnologia python"><i class="fa-brands fa-python"></i>
+                <p>Python</p>
+              </div>
+              <div class="tecnologia java"><i class="fa-brands fa-java"></i>
+                <p>Java</p>
+              </div>
+              <div class="tecnologia github"><i class="fa-brands fa-github"></i>
+                <p>GitHub</p>
+              </div>
+              <div class="tecnologia sql"><i class="fa-solid fa-database"></i>
+                <p>SQL Server</p>
+              </div>
+              <div class="tecnologia react"><i class="fa-brands fa-react"></i>
+                <p>React</p>
+              </div>
+              <div class="tecnologia react-native"><i class="fa-brands fa-react"></i>
+                <p>React N</p>
+              </div>
+              <div class="tecnologia docker"><i class="fa-brands fa-docker"></i>
+                <p>Docker</p>
+              </div>
+              <div class="tecnologia k8s"><i class="fa-solid fa-server"></i>
+                <p>K8s</p>
+              </div>
+              <div class="tecnologia django"><i class="fa-brands fa-python"></i>
+                <p>Django</p>
+              </div>
+              <div class="tecnologia nestjs"><i class="fa-brands fa-node-js"></i>
+                <p>NestJS</p>
+              </div>
+              <div class="tecnologia express"><i class="fa-brands fa-node-js"></i>
+                <p>Express</p>
+              </div>
+              <div class="tecnologia postgres"><i class="fa-solid fa-database"></i>
+                <p>Postgres</p>
+              </div>
+              <div class="tecnologia mysql"><i class="fa-solid fa-database"></i>
+                <p>MySQL</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button>
+        <a download href="archivos/CV Dev Gonzalo Copes..pdf"><span data-i18n="download_cv">Descargar
+            CV</span>
+          <i class="fa-solid fa-download"></i></a>
+        <span class="overlay"></span>
+      </button>
+    </div>
+
+  </section>
+
+  <section id="educacion/exp" class="educacion" data-aos="fade-left">
+    <div class="contenido-seccion">
+      <h2 data-i18n="edu_title">Educación y Experiencia</h2>
+      <div class="contenedor-cards">
+
+        <!-- Educación -->
+        <div class="card-edu-exp" data-aos="fade-right">
+          <h3 data-i18n="edu_subtitle">🎓 Educación</h3>
+          <div class="bloque">
+            <h4>Tecnicatura en Programación</h4>
+            <p class="subtitulo">Universidad Nacional Guillermo Brown</p>
+            <span class="fecha">2022 - 2025 | Graduado</span>
+            <p class="descripcion">
+              Carrera finalizada. Formación intensiva en desarrollo de software, algoritmos, bases de datos y
+              gestión de proyectos tecnológicos.
+            </p>
+          </div>
+        </div>
+
+        <!-- Experiencia -->
+        <div class="card-edu-exp" data-aos="fade-left">
+          <h3 data-i18n="exp_subtitle">💼 Experiencia</h3>
+
+          <div class="bloque">
+            <h4>Soporte Técnico Freelance</h4>
+            <p class="subtitulo">Trabajo independiente por Hobby</p>
+            <span class="fecha">2013 - Actualidad</span>
+            <p class="descripcion">
+              Resolución de problemas de hardware y software, configuración de redes, mantenimiento, instalación y
+              actualización de sistemas.
+            </p>
+          </div>
+
+          <div class="bloque">
+            <h4>Desarrollador - Soporte WebServices</h4>
+            <p class="subtitulo">Workgroup</p>
+            <span class="fecha">SEP 2023 - Actualidad</span>
+            <p class="descripcion">
+              Manejo de: Kubernetes, Docker, Azure, Node.js, Postman, SQL. Automatización con Python. Resolución de
+              tickets, revisiones de logs, despliegues y mantenimiento de sistemas. Desarrollo Front-End en HTML, CSS,
+              JS, React, Bootstrap y WordPress.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- proyectos -->
+  <section id="proyectos" class="proyectos" data-aos="fade-left">
+    <div class="contenido-seccion">
+      <h2 data-i18n="projects_title">PROYECTOS</h2>
+      <div class="galeria">
+        <!-- GoPedidos Project -->
+        <div class="proyecto-card-grid">
+          <img src="imagenes/gopedidos.png" alt="GoPedidos">
+          <h3>GoPedidos</h3>
+          <p>Gestiona tus pedidos directo al WhatsApp. Solución ideal para locales gastronómicos.</p>
+          <a href="https://gopedidos-psi.vercel.app/" target="_blank" class="btn-proyecto">Ver Sitio <i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+
+        <!-- Proyecto 1 -->
+        <div class="proyecto-card-grid">
+          <img src="imagenes/paginaplomero.png" alt="Web Publicitaria">
+          <h3>Web Publicitaria</h3>
+          <p>Landing page moderna para un plomero con contacto directo por WhatsApp.</p>
+          <a href="https://hernan-heredia-plomero-gasista.netlify.app/" target="_blank" class="btn-proyecto">Ver
+            Proyecto <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="proyecto-card-grid">
+          <img src="imagenes/java.png" alt="Punto de Venta">
+          <h3>Punto de Venta</h3>
+          <p>App en Java para registrar productos y ventas en un comercio con control local de stock.</p>
+          <a href="https://github.com/gonzalocopes/puntodeventa" target="_blank" class="btn-proyecto">Ver Proyecto <i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+
+        <!-- Proyecto 3 -->
+        <div class="proyecto-card-grid">
+          <img src="imagenes/automatizacion.png" alt="Automatización de Tickets">
+          <h3>Automatización de Tickets</h3>
+          <p>Script en Python para agilizar la gestión de tickets técnicos y reducir errores manuales.</p>
+          <a href="https://github.com/gonzalocopes/automizacion" target="_blank" class="btn-proyecto">Ver Proyecto <i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+
+        <!-- Proyecto 4 -->
+        <div class="proyecto-card-grid">
+          <img src="imagenes/dulce.png" alt="Dulce Coquitas">
+          <h3>Dulce Coquitas</h3>
+          <p>Tienda online de pastelería con catálogo visual y pedidos vía WhatsApp.</p>
+          <a href="https://dulcecoquitas.netlify.app/" target="_blank" class="btn-proyecto">Ver Proyecto <i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+
+        <!-- Proyecto 5 -->
+        <div class="proyecto-card-grid">
+          <img src="imagenes/gomesama.png" alt="Próximamente">
+          <h3>Gomesama – E‑commerce</h3>
+          <p>Tienda online de snacks y bebidas importadas con carrito, categorías, stock en tiempo real y pedidos
+            directos por WhatsApp.</p>
+          <a href="https://gomesama.com/" target="_blank" class="btn-proyecto">Ver Proyecto <i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <!-- Proyecto 6 -->
+        <div class="proyecto-card-grid">
+          <img src="imagenes/farmacia.png" alt="Próximamente">
+          <h3>Farmacias de Turno Alte Brown</h3>
+          <p>Buscador simple y rápido de farmacias de turno por localidad y fecha. Disponible como web app y app
+            Android.(Proximamente disponible en play store)</p>
+          <a href="https://farmaciasturnoaltebrown.netlify.app/" target="_blank" class="btn-proyecto">Ver Proyecto <i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <!-- Proyecto 7 -->
+        <div class="proyecto-card-grid">
+          <img src="imagenes/descarga.png" alt="Próximamente">
+          <h3>Próximamente</h3>
+          <p>Nuevo proyecto en desarrollo. Mostrará nuevas tecnologías y desafíos resueltos.</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- MAGOZ -->
+  <section id="magoz" class="magoz-destacado" data-aos="fade-up">
+    <div class="magoz-card">
+      <div class="magoz-img">
+        <img src="imagenes/Sin título.png" alt="MaGoz IT Solutions" />
+      </div>
+      <div class="magoz-texto">
+        <h2>MaGoz IT Solutions</h2>
+        <h3>Proyecto Destacado – Web Estilo Windows</h3>
+        <p>
+          Junto a mi socio <a href="https://portfolioactualizado.netlify.app/"
+            target="_blank"><strong>Mariano</strong></a>, fundamos <strong>MaGoz IT Solutions</strong>, una empresa de
+          desarrollo donde diseñamos una
+          <strong>web única e interactiva que simula el sistema operativo Windows</strong>.
+        </p>
+        <ul>
+          <li>🖥️ Escritorio con íconos que abren <strong>ventanas flotantes</strong>: <em>Nosotros, Servicios,
+              Portafolio, Contacto</em>.</li>
+          <li>🪟 Ventanas <strong>minimizables, movibles y redimensionables</strong>.</li>
+          <li>⏰ <strong>Reloj en tiempo real</strong> y barra de tareas con botón de inicio funcional.</li>
+          <li>📱 Diseño <strong>responsive</strong> con mejor experiencia en escritorio.</li>
+          <li>⚛️ Tecnologías: <strong>React + Vite + CSS puro</strong>.</li>
+          <li>🧩 Contiene otros <strong>proyectos desarrollados</strong>.</li>
+        </ul>
+        <a href="https://magozitsolutions.netlify.app/" class="btn-proyecto" target="_blank">
+          Ver Sitio <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
-        <div class="redes">
-            <h4>Gonzalo Copes 2025 </h4><i class="fa-regular fa-registered"></i></a>
+      </div>
+    </div>
+  </section>
 
+
+  <!-- contacto -->
+  <section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+      <h2 data-i18n="contact_title">CONTACTO</h2>
+      <div class="fila">
+        <!-- formulario -->
+        <div class="col">
+          <form action="https://formspree.io/f/mdoropdb" method="POST">
+            <input type="text" placeholder="Nombre" name="name">
+            <input type="text" placeholder="Asunto" name="name">
+            <input type="text" placeholder="Email" name="email">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" name="message"></textarea>
+            <button>
+              <span data-i18n="send_message">Enviar Mensaje</span><i class="fa-solid fa-paper-plane-top"></i>
+              <span class="overlay"></span>
+            </button>
+          </form>
         </div>
-    </footer>
 
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <a href="#inicio" class="arriba">
+      <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+      <h4>Gonzalo Copes 2025 </h4><i class="fa-regular fa-registered"></i></a>
+
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="traductor.js"></script>
+  <script src="script.js"></script>
+  <script>
     AOS.init({
-        duration: 1000, // duración de la animación en ms
-        once: true // animar solo una vez al bajar
+      duration: 1000, // duración de la animación en ms
+      once: true // animar solo una vez al bajar
     });
-    </script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
     AOS.init({
-        duration: 800,
-        easing: 'ease-in-out',
-        once: true
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
     });
-    </script>
-    
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script>
-particlesJS("particles-js", {
-  "particles": {
-    "number": {
-      "value": 60,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
-    },
-    "color": { "value": "#00c0ff" },
-    "shape": {
-      "type": "circle",
-      "polygon": { "nb_sides": 5 }
-    },
-    "opacity": {
-      "value": 0.5,
-      "random": true,
-      "anim": {
-        "enable": true,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 3,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 4,
-        "size_min": 0.3,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": true,
-      "distance": 120,
-      "color": "#00c0ff",
-      "opacity": 0.4,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 2,
-      "direction": "none",
-      "out_mode": "bounce"
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": ["repulse", "grab"]
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 100, /* More particles */
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": { "value": "#00c0ff" },
+        "shape": {
+          "type": "circle",
+          "stroke": { "width": 0, "color": "#000000" },
+          "polygon": { "nb_sides": 5 }
+        },
+        "opacity": {
+          "value": 0.7, /* brighter */
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 1,
+            "opacity_min": 0.3,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 4, /* slightly larger */
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#00c0ff",
+          "opacity": 0.5,
+          "width": 1.5
+        },
+        "move": {
+          "enable": true,
+          "speed": 3,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
       },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": ["repulse", "grab"]
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "repulse": {
+            "distance": 100,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          }
+        }
       },
-      "resize": true
-    },
-    "modes": {
-      "repulse": {
-        "distance": 100,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      }
-    }
-  },
-  "retina_detect": true
-});
-</script>
+      "retina_detect": true
+    });
+  </script>
 
 
 
