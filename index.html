@@ -81,20 +81,20 @@
           <h3 data-i18n="personal_data">Datos Personales</h3>
           <ul>
             <li>
-              <strong>Telefono</strong>
+              <strong data-i18n="phone">Telefono</strong>
               +54 9 1136424020
             </li>
             <li>
-              <strong>Email</strong>
+              <strong data-i18n="contact_email">Email</strong>
               gonzalo.copes@hotmail.com
             </li>
             <li>
-              <strong>Edad</strong>
+              <strong data-i18n="age">Edad</strong>
               30 años
             </li>
             <li>
-              <strong>Ubicacion</strong>
-              Argentina, Buenos Aires
+              <strong data-i18n="location">Ubicacion</strong>
+              <span data-i18n="location_value">Argentina, Buenos Aires</span>
             </li>
           </ul>
         </div>
@@ -225,10 +225,10 @@
         <div class="card-edu-exp" data-aos="fade-right">
           <h3 data-i18n="edu_subtitle">🎓 Educación</h3>
           <div class="bloque">
-            <h4>Tecnicatura en Programación</h4>
+            <h4 data-i18n="edu_degree">Tecnicatura en Programación</h4>
             <p class="subtitulo">Universidad Nacional Guillermo Brown</p>
-            <span class="fecha">2022 - 2025 | Graduado</span>
-            <p class="descripcion">
+            <span class="fecha" data-i18n="edu_status">2022 - 2025 | Graduado</span>
+            <p class="descripcion" data-i18n="edu_desc">
               Carrera finalizada. Formación intensiva en desarrollo de software, algoritmos, bases de datos y
               gestión de proyectos tecnológicos.
             </p>
@@ -240,20 +240,20 @@
           <h3 data-i18n="exp_subtitle">💼 Experiencia</h3>
 
           <div class="bloque">
-            <h4>Soporte Técnico Freelance</h4>
-            <p class="subtitulo">Trabajo independiente por Hobby</p>
-            <span class="fecha">2013 - Actualidad</span>
-            <p class="descripcion">
+            <h4 data-i18n="exp_role_1">Soporte Técnico Freelance</h4>
+            <p class="subtitulo" data-i18n="exp_company_1">Trabajo independiente por Hobby</p>
+            <span class="fecha" data-i18n="exp_date_1">2013 - Actualidad</span>
+            <p class="descripcion" data-i18n="exp_desc_1">
               Resolución de problemas de hardware y software, configuración de redes, mantenimiento, instalación y
               actualización de sistemas.
             </p>
           </div>
 
           <div class="bloque">
-            <h4>Desarrollador - Soporte WebServices</h4>
+            <h4 data-i18n="exp_role_2">Desarrollador - Soporte WebServices</h4>
             <p class="subtitulo">Workgroup</p>
-            <span class="fecha">SEP 2023 - Actualidad</span>
-            <p class="descripcion">
+            <span class="fecha" data-i18n="exp_date_2">SEP 2023 - Actualidad</span>
+            <p class="descripcion" data-i18n="exp_desc_2">
               Manejo de: Kubernetes, Docker, Azure, Node.js, Postman, SQL. Automatización con Python. Resolución de
               tickets, revisiones de logs, despliegues y mantenimiento de sistemas. Desarrollo Front-End en HTML, CSS,
               JS, React, Bootstrap y WordPress.
@@ -276,70 +276,77 @@
         <div class="proyecto-card-grid">
           <img src="imagenes/gopedidos.png" alt="GoPedidos">
           <h3>GoPedidos</h3>
-          <p>Gestiona tus pedidos directo al WhatsApp. Solución ideal para locales gastronómicos.</p>
-          <a href="https://gopedidos-psi.vercel.app/" target="_blank" class="btn-proyecto">Ver Sitio <i
-              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <p data-i18n="proj_gopedidos_desc">Gestiona tus pedidos directo al WhatsApp. Solución ideal para locales
+            gastronómicos.</p>
+          <a href="https://gopedidos-psi.vercel.app/" target="_blank" class="btn-proyecto"><span
+              data-i18n="view_site">Ver Sitio</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
 
         <!-- Proyecto 1 -->
         <div class="proyecto-card-grid">
           <img src="imagenes/paginaplomero.png" alt="Web Publicitaria">
-          <h3>Web Publicitaria</h3>
-          <p>Landing page moderna para un plomero con contacto directo por WhatsApp.</p>
-          <a href="https://hernan-heredia-plomero-gasista.netlify.app/" target="_blank" class="btn-proyecto">Ver
-            Proyecto <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <h3 data-i18n="proj_web_title">Web Publicitaria</h3>
+          <p data-i18n="proj_web_desc">Landing page moderna para un plomero con contacto directo por WhatsApp.</p>
+          <a href="https://hernan-heredia-plomero-gasista.netlify.app/" target="_blank" class="btn-proyecto"><span
+              data-i18n="view_project">Ver
+              Proyecto</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
 
         <!-- Proyecto 2 -->
         <div class="proyecto-card-grid">
           <img src="imagenes/java.png" alt="Punto de Venta">
-          <h3>Punto de Venta</h3>
-          <p>App en Java para registrar productos y ventas en un comercio con control local de stock.</p>
-          <a href="https://github.com/gonzalocopes/puntodeventa" target="_blank" class="btn-proyecto">Ver Proyecto <i
-              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <h3 data-i18n="proj_pos_title">Punto de Venta</h3>
+          <p data-i18n="proj_pos_desc">App en Java para registrar productos y ventas en un comercio con control local de
+            stock.</p>
+          <a href="https://github.com/gonzalocopes/puntodeventa" target="_blank" class="btn-proyecto"><span
+              data-i18n="view_project">Ver Proyecto</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
 
         <!-- Proyecto 3 -->
         <div class="proyecto-card-grid">
           <img src="imagenes/automatizacion.png" alt="Automatización de Tickets">
-          <h3>Automatización de Tickets</h3>
-          <p>Script en Python para agilizar la gestión de tickets técnicos y reducir errores manuales.</p>
-          <a href="https://github.com/gonzalocopes/automizacion" target="_blank" class="btn-proyecto">Ver Proyecto <i
-              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <h3 data-i18n="proj_tickets_title">Automatización de Tickets</h3>
+          <p data-i18n="proj_tickets_desc">Script en Python para agilizar la gestión de tickets técnicos y reducir
+            errores manuales.</p>
+          <a href="https://github.com/gonzalocopes/automizacion" target="_blank" class="btn-proyecto"><span
+              data-i18n="view_project">Ver Proyecto</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
 
         <!-- Proyecto 4 -->
         <div class="proyecto-card-grid">
           <img src="imagenes/dulce.png" alt="Dulce Coquitas">
           <h3>Dulce Coquitas</h3>
-          <p>Tienda online de pastelería con catálogo visual y pedidos vía WhatsApp.</p>
-          <a href="https://dulcecoquitas.netlify.app/" target="_blank" class="btn-proyecto">Ver Proyecto <i
-              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <p data-i18n="proj_dulce_desc">Tienda online de pastelería con catálogo visual y pedidos vía WhatsApp.</p>
+          <a href="https://dulcecoquitas.netlify.app/" target="_blank" class="btn-proyecto"><span
+              data-i18n="view_project">Ver Proyecto</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
 
         <!-- Proyecto 5 -->
         <div class="proyecto-card-grid">
           <img src="imagenes/gomesama.png" alt="Próximamente">
           <h3>Gomesama – E‑commerce</h3>
-          <p>Tienda online de snacks y bebidas importadas con carrito, categorías, stock en tiempo real y pedidos
+          <p data-i18n="proj_gomesama_desc">Tienda online de snacks y bebidas importadas con carrito, categorías, stock
+            en tiempo real y pedidos
             directos por WhatsApp.</p>
-          <a href="https://gomesama.com/" target="_blank" class="btn-proyecto">Ver Proyecto <i
-              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="https://gomesama.com/" target="_blank" class="btn-proyecto"><span data-i18n="view_project">Ver
+              Proyecto</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
         <!-- Proyecto 6 -->
         <div class="proyecto-card-grid">
           <img src="imagenes/farmacia.png" alt="Próximamente">
-          <h3>Farmacias de Turno Alte Brown</h3>
-          <p>Buscador simple y rápido de farmacias de turno por localidad y fecha. Disponible como web app y app
+          <h3 data-i18n="proj_farmacia_title">Farmacias de Turno Alte Brown</h3>
+          <p data-i18n="proj_farmacia_desc">Buscador simple y rápido de farmacias de turno por localidad y fecha.
+            Disponible como web app y app
             Android.(Proximamente disponible en play store)</p>
-          <a href="https://farmaciasturnoaltebrown.netlify.app/" target="_blank" class="btn-proyecto">Ver Proyecto <i
-              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="https://farmaciasturnoaltebrown.netlify.app/" target="_blank" class="btn-proyecto"><span
+              data-i18n="view_project">Ver Proyecto</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
         <!-- Proyecto 7 -->
         <div class="proyecto-card-grid">
           <img src="imagenes/descarga.png" alt="Próximamente">
-          <h3>Próximamente</h3>
-          <p>Nuevo proyecto en desarrollo. Mostrará nuevas tecnologías y desafíos resueltos.</p>
+          <h3 data-i18n="proj_coming_soon_title">Próximamente</h3>
+          <p data-i18n="proj_coming_soon_desc">Nuevo proyecto en desarrollo. Mostrará nuevas tecnologías y desafíos
+            resueltos.</p>
         </div>
       </div>
   </section>
@@ -352,24 +359,27 @@
       </div>
       <div class="magoz-texto">
         <h2>MaGoz IT Solutions</h2>
-        <h3>Proyecto Destacado – Web Estilo Windows</h3>
-        <p>
+        <h3 data-i18n="magoz_subtitle">Proyecto Destacado – Web Estilo Windows</h3>
+        <p data-i18n="magoz_desc">
           Junto a mi socio <a href="https://portfolioactualizado.netlify.app/"
             target="_blank"><strong>Mariano</strong></a>, fundamos <strong>MaGoz IT Solutions</strong>, una empresa de
           desarrollo donde diseñamos una
           <strong>web única e interactiva que simula el sistema operativo Windows</strong>.
         </p>
         <ul>
-          <li>🖥️ Escritorio con íconos que abren <strong>ventanas flotantes</strong>: <em>Nosotros, Servicios,
-              Portafolio, Contacto</em>.</li>
-          <li>🪟 Ventanas <strong>minimizables, movibles y redimensionables</strong>.</li>
-          <li>⏰ <strong>Reloj en tiempo real</strong> y barra de tareas con botón de inicio funcional.</li>
-          <li>📱 Diseño <strong>responsive</strong> con mejor experiencia en escritorio.</li>
-          <li>⚛️ Tecnologías: <strong>React + Vite + CSS puro</strong>.</li>
-          <li>🧩 Contiene otros <strong>proyectos desarrollados</strong>.</li>
+          <li data-i18n="magoz_li_1">🖥️ Escritorio con íconos que abren <strong>ventanas flotantes</strong>:
+            <em>Nosotros, Servicios,
+              Portafolio, Contacto</em>.
+          </li>
+          <li data-i18n="magoz_li_2">🪟 Ventanas <strong>minimizables, movibles y redimensionables</strong>.</li>
+          <li data-i18n="magoz_li_3">⏰ <strong>Reloj en tiempo real</strong> y barra de tareas con botón de inicio
+            funcional.</li>
+          <li data-i18n="magoz_li_4">📱 Diseño <strong>responsive</strong> con mejor experiencia en escritorio.</li>
+          <li data-i18n="magoz_li_5">⚛️ Tecnologías: <strong>React + Vite + CSS puro</strong>.</li>
+          <li data-i18n="magoz_li_6">🧩 Contiene otros <strong>proyectos desarrollados</strong>.</li>
         </ul>
         <a href="https://magozitsolutions.netlify.app/" class="btn-proyecto" target="_blank">
-          Ver Sitio <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <span data-i18n="view_site">Ver Sitio</span> <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
       </div>
     </div>
@@ -384,10 +394,11 @@
         <!-- formulario -->
         <div class="col">
           <form action="https://formspree.io/f/mdoropdb" method="POST">
-            <input type="text" placeholder="Nombre" name="name">
-            <input type="text" placeholder="Asunto" name="name">
-            <input type="text" placeholder="Email" name="email">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" name="message"></textarea>
+            <input type="text" placeholder="Nombre" name="name" data-i18n-placeholder="contact_name">
+            <input type="text" placeholder="Asunto" name="name" data-i18n-placeholder="contact_subject">
+            <input type="text" placeholder="Email" name="email" data-i18n-placeholder="contact_email">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" name="message"
+              data-i18n-placeholder="contact_message"></textarea>
             <button>
               <span data-i18n="send_message">Enviar Mensaje</span><i class="fa-solid fa-paper-plane-top"></i>
               <span class="overlay"></span>
