@@ -25,6 +25,12 @@ export default function AIAssistant() {
     scrollToBottom();
   }, [messages]);
 
+  useEffect(() => {
+    const handleOpenChat = () => setIsOpen(true);
+    window.addEventListener("open-chat", handleOpenChat);
+    return () => window.removeEventListener("open-chat", handleOpenChat);
+  }, []);
+
   const handleSend = (e?: React.FormEvent) => {
     e?.preventDefault();
     if (!input.trim()) return;

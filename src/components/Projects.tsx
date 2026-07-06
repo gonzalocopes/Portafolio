@@ -99,9 +99,9 @@ export default function Projects() {
     },
     {
       title: "Gestión de Ventas - Saphirus",
-      desc: "Sistema integral de punto de venta y gestión de stock desarrollado a medida para un local Saphirus.",
-      tech: ["React", "Node.js", "Express", "SQL"],
-      github: "#",
+      desc: "Sistema integral de punto de venta y gestión de stock con arquitectura Offline-First. Permite operar sin internet y sincroniza con la nube automáticamente al reconectar.",
+      tech: ["React", "TypeScript", "Tailwind", "Electron", "Java", "Spring Boot", "Supabase"],
+      github: "https://github.com/gonzalocopes/sistema-stock-shapirus",
       demo: "#",
       img: ""
     },

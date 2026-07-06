@@ -39,12 +39,15 @@ export default function Navbar() {
             Projects
           </Link>
         </div>
-        <Link
-          href="#contact"
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            window.dispatchEvent(new Event("open-chat"));
+          }}
           className="px-4 py-2 rounded-full border border-[var(--color-neon-purple)] hover:bg-[var(--color-neon-purple)]/10 transition-colors text-sm font-semibold"
         >
           Contact Me
-        </Link>
+        </button>
       </div>
     </nav>
   );

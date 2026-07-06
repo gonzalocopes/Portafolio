@@ -25,7 +25,7 @@ export async function POST(req: Request) {
     
     Proyectos Destacados (todos construidos por Gonzalo):
     - IA Documentos (RAG con Python y LangChain)
-    - Gestión de Ventas Saphirus (React, Node)
+    - Gestión de Ventas Saphirus (React, Electron, Java, Spring Boot, Supabase)
     - Stockeate (App mobile React Native)
     - GoPedidos, Farmaturno, etc.
     
